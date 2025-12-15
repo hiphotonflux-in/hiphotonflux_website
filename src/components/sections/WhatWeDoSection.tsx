@@ -29,13 +29,13 @@ const capabilities = [
 
 const WhatWeDoSection = () => {
   return (
-    <section className="py-20 lg:py-28 bg-secondary">
+    <section className="py-20 lg:py-28 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-secondary-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             What We Do
           </h2>
-          <p className="text-lg text-secondary-foreground/70">
+          <p className="text-lg text-gray-700">
             We harness the power of technology and quantitative analysis to 
             navigate global financial markets with precision and efficiency.
           </p>
@@ -45,15 +45,15 @@ const WhatWeDoSection = () => {
           {capabilities.map((capability, index) => (
             <div
               key={index}
-              className="group p-6 rounded-xl bg-secondary-foreground/5 border border-secondary-foreground/10 hover:border-primary/30 transition-all duration-300"
+              className="group p-6 rounded-xl bg-white border border-gray-200 hover:border-primary/30 transition-all duration-300"
             >
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-5">
                 <capability.icon className="w-7 h-7 text-primary-foreground" />
               </div>
-              <h3 className="text-lg font-semibold text-secondary-foreground mb-3">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">
                 {capability.title}
               </h3>
-              <p className="text-secondary-foreground/70 text-sm leading-relaxed">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 {capability.description}
               </p>
             </div>
