@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react";
 import { toast } from "sonner";
 import PageLayout from "@/components/layout/PageLayout";
-import aboutHero from "@/assets/about-hero.jpg";
+import aboutHero from "@/assets/online-school-equipment-home.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, TrendingUp, BarChart2, Globe, Shield, Clock } from "lucide-react";
 import PageLayout from "@/components/layout/PageLayout";
-import aboutHero from "@/assets/about-hero.jpg";
+import aboutHero from "@/assets/online-school-equipment-home.png";
 
 const WhatWeDo = () => {
   return (
