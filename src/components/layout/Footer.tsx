@@ -1,9 +1,19 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram, Github, createLucideIcon } from "lucide-react";
 import companyLogo from "@/assets/company_logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const XIcon = createLucideIcon("X", [
+    [
+      "path",
+      {
+        d: "M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z",
+        stroke: "none",
+        fill: "currentColor",
+      },
+    ],
+  ]);
 
   return (
     <footer className="bg-gray-50 text-gray-900">
@@ -21,18 +31,44 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/photonflux-capital/"
                 className="text-gray-500 hover:text-primary transition-colors"
                 aria-label="LinkedIn"
+                target="_blank" rel="noopener noreferrer"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/hiphotonflux/"
                 className="text-gray-500 hover:text-primary transition-colors"
-                aria-label="Twitter"
+                aria-label="Facebook"
+                target="_blank" rel="noopener noreferrer"
               >
-                <Twitter className="w-5 h-5" />
+                <Facebook className="w-6 h-6" />
+              </a>
+              <a
+                href="https://www.instagram.com/hiphotonflux/"
+                className="text-gray-500 hover:text-primary transition-colors"
+                aria-label="Instagram"
+                target="_blank" rel="noopener noreferrer"
+              >
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a
+                href="https://github.com/hiphotonflux"
+                className="text-gray-500 hover:text-primary transition-colors"
+                aria-label="GitHub"
+                target="_blank" rel="noopener noreferrer"
+              >
+                <Github className="w-6 h-6" />
+              </a>
+              <a
+                href="https://x.com/hiphotonflux"
+                className="text-gray-500 hover:text-primary transition-colors"
+                aria-label="X (Twitter)"
+                target="_blank" rel="noopener noreferrer"
+              >
+                <XIcon/>
               </a>
             </div>
           </div>
