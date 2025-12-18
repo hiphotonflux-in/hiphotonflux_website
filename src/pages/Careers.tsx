@@ -47,14 +47,14 @@ const Careers = () => {
       </Helmet>
       <PageLayout>
         {/* Hero Section */}
-        <section className="py-20 lg:py-28 bg-secondary">
+        <section className="py-20 lg:py-28 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                 Our People Make Us{" "}
                 <span className="text-primary">Exceptional</span>
               </h1>
-              <p className="text-xl text-secondary-foreground/70 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 We're always looking for talented individuals who are passionate about 
                 solving complex problems and pushing the boundaries of what's possible.
               </p>
@@ -63,7 +63,7 @@ const Careers = () => {
         </section>
 
         {/* Culture Section */}
-        <section className="py-20 lg:py-28 bg-background">
+        <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
@@ -175,7 +175,7 @@ const Careers = () => {
         </section>
 
         {/* Open Positions */}
-        <section className="py-20 lg:py-28 bg-background">
+        <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
@@ -229,12 +229,12 @@ const Careers = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 lg:py-28 bg-secondary">
+        <section className="py-20 lg:py-28 bg-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary-foreground mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               Ready to Make an Impact?
             </h2>
-            <p className="text-lg text-secondary-foreground/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
               Don't see a role that fits? We're always interested in hearing from 
               exceptional candidates. Send us your resume and tell us about yourself.
             </p>

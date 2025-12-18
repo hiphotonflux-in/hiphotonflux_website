@@ -17,21 +17,21 @@ const About = () => {
       </Helmet>
       <PageLayout>
         {/* Hero Section */}
-        <section className="relative py-20 lg:py-28 overflow-hidden">
+        <section className="relative py-20 lg:py-28 overflow-hidden bg-white">  
           <div className="absolute inset-0 z-0">
             <img
               src={aboutHero}
               alt="Quantitative research visualization with neural networks and data analysis"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-secondary/85" />
+            <div className="absolute inset-0 bg-white/85" />
           </div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                 About <span className="text-primary">PhotonFluxCapital</span>
               </h1>
-              <p className="text-xl text-secondary-foreground/70 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 We are a team of mathematicians, engineers, and traders united by a 
                 passion for leveraging technology to decode financial markets.
               </p>
@@ -40,7 +40,7 @@ const About = () => {
         </section>
 
         {/* Mission Section */}
-        <section className="py-20 lg:py-28 bg-background">
+        <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div>
@@ -88,32 +88,32 @@ const About = () => {
         </section>
 
         {/* Empowerment Section */}
-        <section className="py-20 lg:py-28 bg-secondary">
+        <section className="py-20 lg:py-28 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-secondary-foreground mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Empowerment & Growth
               </h2>
-              <p className="text-lg text-secondary-foreground/70 mb-8">
+              <p className="text-lg text-gray-700 mb-8">
                 We believe in empowering every team member with ownership, autonomy, and 
                 the resources they need to excel. Your growth is our growth.
               </p>
               <div className="grid md:grid-cols-3 gap-6 text-left">
-                <div className="p-6 rounded-xl bg-secondary-foreground/5 border border-secondary-foreground/10">
-                  <h3 className="font-semibold text-secondary-foreground mb-2">Ownership</h3>
-                  <p className="text-sm text-secondary-foreground/70">
+                <div className="p-6 rounded-xl bg-white border border-gray-200">
+                  <h3 className="font-semibold text-gray-800 mb-2">Ownership</h3>
+                  <p className="text-sm text-gray-600">
                     Take charge of meaningful projects and see your ideas come to life.
                   </p>
                 </div>
-                <div className="p-6 rounded-xl bg-secondary-foreground/5 border border-secondary-foreground/10">
-                  <h3 className="font-semibold text-secondary-foreground mb-2">Support</h3>
-                  <p className="text-sm text-secondary-foreground/70">
+                <div className="p-6 rounded-xl bg-white border border-gray-200">
+                  <h3 className="font-semibold text-gray-800 mb-2">Support</h3>
+                  <p className="text-sm text-gray-600">
                     Access to mentorship, resources, and a collaborative environment.
                   </p>
                 </div>
-                <div className="p-6 rounded-xl bg-secondary-foreground/5 border border-secondary-foreground/10">
-                  <h3 className="font-semibold text-secondary-foreground mb-2">Development</h3>
-                  <p className="text-sm text-secondary-foreground/70">
+                <div className="p-6 rounded-xl bg-white border border-gray-200">
+                  <h3 className="font-semibold text-gray-800 mb-2">Development</h3>
+                  <p className="text-sm text-gray-600">
                     Continuous learning opportunities and career advancement paths.
                   </p>
                 </div>
@@ -123,7 +123,7 @@ const About = () => {
         </section>
 
         {/* Infrastructure Section */}
-        <section className="py-20 lg:py-28 bg-background">
+        <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">

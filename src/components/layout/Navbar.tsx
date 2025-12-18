@@ -16,7 +16,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-sm border-b border-navy-light">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">PF</span>
             </div>
-            <span className="text-secondary-foreground font-semibold text-lg hidden sm:block">
+            <span className="text-gray-900 font-semibold text-lg hidden sm:block">
               PhotonFluxCapital
             </span>
           </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 className={`text-sm font-medium transition-colors hover:text-primary ${
                   location.pathname === link.path
                     ? "text-primary"
-                    : "text-secondary-foreground/80"
+                    : "text-gray-700"
                 }`}
               >
                 {link.name}
@@ -56,7 +56,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 text-secondary-foreground"
+            className="lg:hidden p-2 text-gray-800"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="lg:hidden py-4 border-t border-navy-light">
+          <div className="lg:hidden py-4 border-t border-gray-200 bg-white">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link
@@ -74,7 +74,7 @@ const Navbar = () => {
                   className={`text-sm font-medium transition-colors hover:text-primary ${
                     location.pathname === link.path
                       ? "text-primary"
-                      : "text-secondary-foreground/80"
+                      : "text-gray-700"
                   }`}
                 >
                   {link.name}

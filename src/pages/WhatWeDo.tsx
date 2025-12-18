@@ -16,13 +16,13 @@ const WhatWeDo = () => {
       </Helmet>
       <PageLayout>
         {/* Hero Section */}
-        <section className="py-20 lg:py-28 bg-secondary">
+        <section className="py-20 lg:py-28 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                 What We <span className="text-primary">Do</span>
               </h1>
-              <p className="text-xl text-secondary-foreground/70 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 We combine cutting-edge technology with deep market expertise to 
                 identify and capture opportunities across global financial markets.
               </p>
@@ -31,7 +31,7 @@ const WhatWeDo = () => {
         </section>
 
         {/* Competitive Edge */}
-        <section className="py-20 lg:py-28 bg-background">
+        <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div>
@@ -115,13 +115,13 @@ const WhatWeDo = () => {
         </section>
 
         {/* Asset Classes */}
-        <section className="py-20 lg:py-28 bg-secondary">
+        <section className="py-20 lg:py-28 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-secondary-foreground mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Diverse Asset Classes & Models
               </h2>
-              <p className="text-lg text-secondary-foreground/70">
+              <p className="text-lg text-gray-700">
                 Our strategies span multiple asset classes and employ a diverse range 
                 of models, providing resilience and opportunity across market conditions.
               </p>
@@ -138,11 +138,11 @@ const WhatWeDo = () => {
               ].map((asset, index) => (
                 <div
                   key={index}
-                  className="p-6 rounded-xl bg-secondary-foreground/5 border border-secondary-foreground/10 hover:border-primary/30 transition-colors"
+                  className="p-6 rounded-xl bg-white border border-gray-200 hover:border-primary/30 transition-colors"
                 >
                   <BarChart2 className="w-6 h-6 text-primary mb-3" />
-                  <h3 className="font-semibold text-secondary-foreground mb-2">{asset.title}</h3>
-                  <p className="text-sm text-secondary-foreground/70">{asset.desc}</p>
+                  <h3 className="font-semibold text-gray-800 mb-2">{asset.title}</h3>
+                  <p className="text-sm text-gray-600">{asset.desc}</p>
                 </div>
               ))}
             </div>
@@ -150,7 +150,7 @@ const WhatWeDo = () => {
         </section>
 
         {/* Trading Approach */}
-        <section className="py-20 lg:py-28 bg-background">
+        <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>

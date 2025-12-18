@@ -59,13 +59,13 @@ const Contact = () => {
       </Helmet>
       <PageLayout>
         {/* Hero Section */}
-        <section className="py-20 lg:py-28 bg-secondary">
+        <section className="py-20 lg:py-28 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                 Get in <span className="text-primary">Touch</span>
               </h1>
-              <p className="text-xl text-secondary-foreground/70 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 Have a question or want to learn more about PhotonFluxCapital? 
                 We'd love to hear from you.
               </p>
@@ -74,7 +74,7 @@ const Contact = () => {
         </section>
 
         {/* Contact Section */}
-        <section className="py-20 lg:py-28 bg-background">
+        <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
               {/* Contact Info */}
