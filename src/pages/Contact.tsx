@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react";
 import { toast } from "sonner";
 import PageLayout from "@/components/layout/PageLayout";
+import aboutHero from "@/assets/about-hero.jpg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -59,8 +60,16 @@ const Contact = () => {
       </Helmet>
       <PageLayout>
         {/* Hero Section */}
-        <section className="py-20 lg:py-28 bg-white">
-          <div className="container mx-auto px-4">
+        <section className="relative py-20 lg:py-28 overflow-hidden bg-white">
+          <div className="absolute inset-0 z-0">
+            <img
+              src={aboutHero}
+              alt="Quantitative trading visualization with data streams and financial charts"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-white/85" />
+          </div>
+          <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                 Get in <span className="text-primary">Touch</span>
