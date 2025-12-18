@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Twitter } from "lucide-react";
+import companyLogo from "@/assets/company_logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,9 +12,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">PF</span>
-              </div>
+              <img src={companyLogo} alt="Company Logo" className="w-8 h-8 rounded-lg object-cover" />
               <span className="font-semibold text-lg">PhotonFluxCapital</span>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
