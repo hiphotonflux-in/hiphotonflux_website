@@ -85,14 +85,14 @@ const Contact = () => {
         {/* Contact Section */}
         <section className="py-20 lg:py-28 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* Contact Info */}
-              <div>
+              <div className="flex flex-col justify-center items-center lg:col-span-2">
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
                   Contact Information
                 </h2>
 
-                <div className="space-y-6">
+                <div className="space-y-6 w-full max-w-lg">
                   <div className="flex items-start gap-4 p-6 rounded-xl bg-card border border-border">
                     <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-6 h-6 text-primary" />
@@ -134,7 +134,7 @@ const Contact = () => {
               </div>
 
               {/* Contact Form */}
-              <div>
+              {/* <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
                   Send Us a Message
                 </h2>
@@ -212,7 +212,7 @@ const Contact = () => {
                     )}
                   </Button>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
