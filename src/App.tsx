@@ -19,7 +19,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/PhotonFluxCapital_website">
+        <BrowserRouter basename="/hiphotonflux_website">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />

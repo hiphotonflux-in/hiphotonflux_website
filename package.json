@@ -2,7 +2,7 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://PhotonFluxCapital.github.io/PhotonFluxCapital_website",
+  "homepage": "https://hiphotonflux-in.github.io/hiphotonflux_website",
   "type": "module",
   "scripts": {
     "dev": "vite",
