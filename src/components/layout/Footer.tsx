@@ -31,7 +31,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/company/photonflux-capital/"
+                href="https://www.linkedin.com/company/hiphotonflux"
                 className="text-gray-500 hover:text-primary transition-colors"
                 aria-label="LinkedIn"
                 target="_blank" rel="noopener noreferrer"
