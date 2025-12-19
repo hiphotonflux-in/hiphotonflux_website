@@ -5,8 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // base is set for GitHub Pages deployment (repo hosted at hiphotonflux-in/hiphotonflux_website)
-  base: "/hiphotonflux_website/",
+  // base set for deployment at site root or custom domain
+  base: "/",
   server: {
     host: "::",
     port: 8080,
