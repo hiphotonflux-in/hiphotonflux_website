@@ -9,10 +9,10 @@ const WhatWeDo = () => {
   return (
     <>
       <Helmet>
-        <title>What We Do | PhotonFluxCapital</title>
+        <title>What We Do | PhotonFlux Capital</title>
         <meta
           name="description"
-          content="Discover how PhotonFluxCapital leverages automation, quantitative expertise, and global market access to generate consistent returns."
+          content="Discover how PhotonFlux Capital leverages automation, quantitative expertise, and global market access to generate consistent returns."
         />
       </Helmet>
       <PageLayout>

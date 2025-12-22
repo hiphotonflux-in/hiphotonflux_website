@@ -10,10 +10,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>PhotonFluxCapital | Leading Quant & Proprietary Trading Firm</title>
+        <title>PhotonFlux Capital | Leading Quant & Proprietary Trading Firm</title>
         <meta
           name="description"
-          content="PhotonFluxCapital is a leading quantitative and proprietary trading firm combining cutting-edge technology with deep market expertise across global financial markets."
+          content="PhotonFlux Capital is a leading quantitative and proprietary trading firm combining cutting-edge technology with deep market expertise across global financial markets."
         />
       </Helmet>
       <PageLayout>

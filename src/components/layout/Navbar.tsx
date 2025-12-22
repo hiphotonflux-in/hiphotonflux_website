@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             <img src={companyLogo} alt="Company Logo" className="w-8 h-8 rounded-lg object-cover" />
             <span className="text-gray-900 font-semibold text-lg hidden sm:block">
-              PhotonFluxCapital
+              PhotonFlux Capital
             </span>
           </Link>
 

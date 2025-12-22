@@ -52,10 +52,10 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | PhotonFluxCapital</title>
+        <title>Contact Us | PhotonFlux Capital</title>
         <meta
           name="description"
-          content="Get in touch with PhotonFluxCapital. Contact us for career inquiries, partnership opportunities, or general questions."
+          content="Get in touch with PhotonFlux Capital. Contact us for career inquiries, partnership opportunities, or general questions."
         />
       </Helmet>
       <PageLayout>
@@ -75,7 +75,7 @@ const Contact = () => {
                 Get in <span className="text-primary">Touch</span>
               </h1>
               <p className="text-xl text-gray-700 leading-relaxed">
-                Have a question or want to learn more about PhotonFluxCapital? 
+                Have a question or want to learn more about PhotonFlux Capital? 
                 We'd love to hear from you.
               </p>
             </div>
@@ -124,9 +124,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-card-foreground mb-1">Email</h3>
                       <p className="text-muted-foreground">
-                        <strong>General:</strong> info@photonfluxcapital.com<br />
-                        <strong>Careers:</strong> careers@photonfluxcapital.com<br />
-                        <strong>Support:</strong> support@photonfluxcapital.com
+                        <strong>General:</strong> info@PhotonFlux Capital.com<br />
+                        <strong>Careers:</strong> careers@PhotonFlux Capital.com<br />
+                        <strong>Support:</strong> support@PhotonFlux Capital.com
                       </p>
                     </div>
                   </div>

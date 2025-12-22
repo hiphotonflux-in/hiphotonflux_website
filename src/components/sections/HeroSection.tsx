@@ -27,7 +27,7 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground leading-tight mb-6">
-            PhotonFluxCapital is a{" "}
+            PhotonFlux Capital is a{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
               Leading Quant
             </span>{" "}

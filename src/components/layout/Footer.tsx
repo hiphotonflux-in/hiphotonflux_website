@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <img src={companyLogo} alt="Company Logo" className="w-8 h-8 rounded-lg object-cover" />
-              <span className="font-semibold text-lg">PhotonFluxCapital</span>
+              <span className="font-semibold text-lg">PhotonFlux Capital</span>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
               A leading quantitative and proprietary trading firm combining 
@@ -143,7 +143,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-sm text-gray-600">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>info@photonfluxcapital.com</span>
+                <span>info@PhotonFlux Capital.com</span>
               </li>
             </ul>
           </div>
@@ -151,7 +151,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © {currentYear} PhotonFluxCapital. All rights reserved.
+            © {currentYear} PhotonFlux Capital. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-500">
             <Link to="/privacypolicy" className="hover:text-primary transition-colors">Privacy Policy</Link>

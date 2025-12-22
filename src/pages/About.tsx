@@ -9,10 +9,10 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | PhotonFluxCapital</title>
+        <title>About Us | PhotonFlux Capital</title>
         <meta
           name="description"
-          content="Learn about PhotonFluxCapital's mission, philosophy, and the exceptional team driving innovation in quantitative trading."
+          content="Learn about PhotonFlux Capital's mission, philosophy, and the exceptional team driving innovation in quantitative trading."
         />
       </Helmet>
       <PageLayout>
@@ -29,7 +29,7 @@ const About = () => {
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                About <span className="text-primary">PhotonFluxCapital</span>
+                About <span className="text-primary">PhotonFlux Capital</span>
               </h1>
               <p className="text-xl text-gray-700 leading-relaxed">
                 We are a team of mathematicians, engineers, and traders united by a 
@@ -49,7 +49,7 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    At PhotonFluxCapital, we believe that the intersection of innovation, 
+                    At PhotonFlux Capital, we believe that the intersection of innovation, 
                     expertise, and collaboration creates extraordinary opportunities. Our 
                     mission is to push the boundaries of quantitative trading while 
                     maintaining the highest standards of integrity and excellence.
